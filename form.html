@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>PHIẾU ĐĂNG KÝ</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+    </style>
+
+    <link rel="stylesheet" href="./css/form.html.css">
+</head>
+
+<body>
+    <h2>Phiếu đăng ký tham gia chương trình khuyến mãi</h2>
+    <table>
+        <tr>
+            <th>Họ và Tên</th>
+            <td><input type="test"></td>
+        </tr>
+        <tr>
+            <th>Địa chỉ</th>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <th>Điện thoại</th>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <th>Giới tính</th>
+            <td>
+                <input type="radio" name="gender" value="1">Nam
+                <input type="radio" name="gender" value="2">Nữ
+                <input type="radio" name="gender" value="3">LGBT
+            </td>
+        </tr>
+        <tr>
+            <th>nghề nghiệp</th>
+            <td>
+                <select>
+                    <option value="1">Giáo viên</option>
+                    <option value="2">Bác sĩ</option>
+                    <option value="3">Cán bộ</option>
+                    <option value="4">Giao hàng</option>
+                    <option value="5">Nông dân</option>
+                    <option value="6">Công nhân</option>
+                    <option value="7">Doanh nhân</option>
+                    <option value="8">Tự do</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <th>Chọn sản phẩm tham gia</th>
+            <td>
+                <select>
+                    <option value="1">Kem đánh răng</option>
+                    <option value="2">Sữa rửa mặt</option>
+                    <option value="3 ">Bông tẩy trang</option>
+                    <option value="4">Serum</option>
+                    <option value="5">Nước hoa hồng</option>
+                    <option value="6">Tổng giá trị thanh toán trên 350k</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <th>Số người dự đoán</th>
+            <td><input type="number"></td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <button type="button" onclick="register()">Đồng ý</button>
+            </td>
+        </tr>
+</body>
+
+</html>
